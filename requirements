@@ -1,0 +1,37 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+
+torch==1.7.1+cu110 
+torchvision==0.8.2+cu110
+torchtext
+torchserve 
+torch-model-archiver
+tensorboard
+
+-f https://dl.fbaipublicfiles.com/detectron2/wheels/cu110/torch1.7/index.html
+detectron2==0.4
+
+numpy==1.19.0
+requests~=2.21.0
+six~=1.12.0
+termcolor>=1.1
+yacs>=0.1.6
+tqdm>4.29.0
+fvcore>=0.1.1
+pycocotools>=2.0.1
+pyyaml==5.1
+opencv-contrib-python==4.4.0.40
+opencv-python==4.4.0.40
+Pillow>=7.0
+
+future
+pydot
+graphviz
+tabulate
+cloudpickle
+matplotlib
+shapely
+mock
+jupyterlab
+flask 
+jsonify
+streamlit 
